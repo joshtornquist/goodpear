@@ -1,0 +1,104 @@
+
+body {
+    font-family: 'Nunito', sans-serif, ;
+}
+
+b {
+    font-size: 35pt;
+    color: rgb(12, 124, 89);
+}
+
+i {
+    font-size: 40pt;
+    background-color: transparent;
+    color: rgb(43, 48, 58);
+    border: none;
+}
+
+i:active {
+
+    color: rgb(43, 48, 58, .50);
+
+}
+
+.backButton, .backButton:hover {
+    color: transparent;
+    border-color: transparent;
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@keyframes example {
+    from {background-color: transparent;}
+    to {background-color: rgb(43, 48, 58);}
+  }
+
+
+
+.shapeResult {
+    background-color: rgb(43, 48, 58);
+    animation-name: example;
+    animation-duration: 1s;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    margin: 3%;
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.listContainer {
+    display: inline;
+    background-color: transparent;
+    margin: auto;
+    width: 50%;
+    
+
+
+}
+
+.resultsHeadline {
+    font-size: 30pt;
+    padding-left: 2.5%;
+    color: rgb(43, 48, 58);
+}
+
+.resultsContainer {
+    margin-top: 25vh;
+    margin-left: 5%;
+}
+
+
+.itemsContainer {
+    animation-name: example;
+    animation-duration: 1s;
+    background-color: rgb(12, 124, 89);
+    border-radius: 50px;
+    height: auto;
+    width: auto;
+    padding: 5%;
+    position: fixed;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .resultsContainer {
+        margin-top: 30%;
+    }
+    
+}

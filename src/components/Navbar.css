@@ -1,0 +1,55 @@
+.navbar {
+    width: 100%;
+    height: auto;
+    background-color: rgb(43, 48, 58);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    box-shadow: 10px 15px 15px #24242433;
+
+}
+
+.navbar-logo {
+    width: 20rem;
+    margin: 2%;
+}
+
+button:hover {
+    background-color:rgb(12, 124, 89, .70);
+    color: white;
+
+}
+.logInButton {
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+    top: 30%;
+    right: 15%;
+    border: none;
+    font-size: large;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+@media screen and (max-width: 480px) {
+    .navbar-logo {
+        width: 15rem;
+        margin-top: 5%;
+        margin-right: 3%;
+    }
+
+
+    .logInButton {
+        width: 100px;
+        height: 35px;
+        top: 30%;
+        right: 2%;
+    }
+
+    button {
+        display: block;
+    }
+}
